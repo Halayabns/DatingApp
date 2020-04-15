@@ -11,5 +11,7 @@ namespace Dating.API.Data
         }
 
         public DbSet<Value> Valiue  { get; set; }
+
+        public DbSet<User> Users { get; set; }     
     }
 }
